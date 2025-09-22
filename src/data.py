@@ -11,7 +11,7 @@ def load_data():
     """
     wine = load_wine()
     print(wine.feature_names)
-    X = wine.data[:, [0, 1, 11]]
+    X = wine.data[:, [0, 6, 9, 12]]
     y = wine.target
     return X, y
 
