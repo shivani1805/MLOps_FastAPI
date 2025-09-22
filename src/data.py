@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 
 def load_data():
     """
-    Load the Wine dataset and return only three features and target values.
+    Load the Wine dataset and return only four features and target values.
     Returns:
         X (numpy.ndarray): The features of the wine dataset.
         y (numpy.ndarray): The target values of the wine dataset.
