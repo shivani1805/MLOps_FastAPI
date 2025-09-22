@@ -10,6 +10,7 @@ def load_data():
         y (numpy.ndarray): The target values of the wine dataset.
     """
     wine = load_wine()
+    print(wine.feature_names)
     X = wine.data[:, [0, 1, 11]]
     y = wine.target
     return X, y
